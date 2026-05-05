@@ -14,3 +14,10 @@ Clone this repository:
 ```bash
 git clone https://github.com/likefreedom/webmeta-cli.git
 cd webmeta-cli
+```bash
+pip install requests beautifulsoup4
+python webmeta.py https://example.com
+Usage Example
+$ python webmeta.py https://example.com
+Title      : Example Domain
+Description: This domain is for use in illustrative examples in documents.
