@@ -44,8 +44,10 @@ def main():
     if "error" in result:
         print(f"Error: {result['error']}")
     else:
-        print(f"Title: {result['title']}")
-        print(f"Description: {result['description']}")
+        print("=== Webmeta Result ===")
+        print(f"Title      : {title}")
+        print(f"Description: {description}")
+        print("======================")
 
 
 if __name__ == "__main__":
